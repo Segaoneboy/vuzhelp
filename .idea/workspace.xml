@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0262bab-3d80-4361-8461-75b12f118c44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/providers/TelegramProviders.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/auth/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/telegram.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/telegram.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -85,7 +84,8 @@
       <workItem from="1759671562265" duration="6553000" />
       <workItem from="1759724428470" duration="665000" />
       <workItem from="1759766113506" duration="2718000" />
-      <workItem from="1759823263625" duration="968000" />
+      <workItem from="1759823263625" duration="1519000" />
+      <workItem from="1759842174603" duration="5564000" />
     </task>
     <servers />
   </component>
