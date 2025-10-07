@@ -1,14 +1,15 @@
 'use client';
+
 import { useRouter } from "next/navigation"
 import {useTelegram} from "@/providers/TelegramProviders";
 
-export default function Home() {
+export default function Auth(){
     const router = useRouter();
     const { themeParams } = useTelegram();
-    return(
+    return (
         <>
             <div style={{background: themeParams.bg_color, color: themeParams.color}}>
-                <button onClick={() => router.push("/auth")} className='bg-blue-400 p-3'>Перейти на страницу авторизации</button>
+                <button onClick={() => router.push("/")} className='bg-amber-300 p-3'>Перейти на главную</button>
             </div>
         </>
     )
