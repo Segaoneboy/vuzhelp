@@ -5,3 +5,9 @@ export type TelegramUser = {
     username?: string;
     photo_url?: string;
 }
+export type TelegramContextType = {
+    tg: any;
+    user: any;
+    themeParams: any;
+    colorScheme: string;
+};
