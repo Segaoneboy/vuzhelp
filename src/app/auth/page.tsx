@@ -29,9 +29,9 @@ export default function Auth(){
                             </button>
                         </div>
                     </form>
-                    <div className="flex items-center justify-center gap-4">
+                    <div className="flex items-center justify-center mt-[18px]">
                         <p className="text-[16px] text-[#34495E] font-bold">Нет аккаунта?</p>
-                        <button className="text-[16px] text-[#3498DB] font-bold underline">Зарегистрироваться</button>
+                        <button className="text-[16px] text-[#3498DB] font-bold underline ml-[4px]">Зарегистрироваться</button>
                     </div>
                 </div>
             </div>
