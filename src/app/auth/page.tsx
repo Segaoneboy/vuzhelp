@@ -15,7 +15,7 @@ export default function Auth(){
                         <div className="flex justify-center mt-8">
                             <input
                                 type="text"
-                                className="montserrat-text w-[90%] h-[70px] rounded-[20px] bg-[#34495E] text-white placeholder:text-white placeholder:text-xs placeholder:font-bold pl-8"
+                                className="montserrat-text w-[95%] h-[70px] rounded-[20px] bg-[#34495E] text-white placeholder:text-white placeholder:text-xs placeholder:font-bold pl-8"
                                 placeholder="Ваш ID"
                             />
                         </div>
@@ -23,7 +23,7 @@ export default function Auth(){
                         <div className="flex flex-col space-y-4 items-center mt-[18px]">
                             <button
                                 type="submit"
-                                className="montserrat-text w-[90%] h-[50px] text-white bg-[#3498DB] rounded-[20px] text-xs font-bold"
+                                className="montserrat-text w-[95%] h-[50px] text-white bg-[#3498DB] rounded-[20px] text-xs font-bold"
                             >
                                 Войти
                             </button>
