@@ -31,7 +31,7 @@ export default function Home(){
                     </form>
                     <div className="flex items-center justify-center mt-[18px]">
                         <p className="montserrat-text text-[16px] text-[#34495E] font-bold">Нет аккаунта?</p>
-                        <button className="montserrat-text text-[16px] text-[#3498DB] font-bold underline ml-[4px]">Зарегистрироваться</button>
+                        <button onClick={() => router.push("/auth")} className="montserrat-text text-[16px] text-[#3498DB] font-bold underline ml-[4px]">Зарегистрироваться</button>
                     </div>
                 </div>
             </div>
