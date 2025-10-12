@@ -11,7 +11,7 @@ export default function Auth() {
             <div className="flex items-center justify-center w-full h-[70vh]">
                 <div className="w-full max-w-[100%] mx-4">
                     <form className="bg-transparent">
-                        <div className="flex justify-center mt-8">
+                        <div className="flex flex-col items-center space-y-4 mt-8">
                             <input
                                 type="text"
                                 className="montserrat-text w-[95%] h-[70px] rounded-[20px] bg-[#34495E] text-white placeholder:text-white placeholder:text-xs placeholder:font-bold pl-8"
