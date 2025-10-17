@@ -3,6 +3,8 @@
 import { useRouter } from "next/navigation"
 import {useTelegram} from "@/providers/TelegramProviders";
 
+//Страница Входв
+
 export default function Home(){
     const router = useRouter();
     const { themeParams } = useTelegram();
@@ -11,6 +13,7 @@ export default function Home(){
             <h2 className="montserrat-text pt-[30px] bg-none text-[#2C3E50] text-2xl font-bold text-center">Вход в личный кабинет</h2>
             <div className="flex items-center justify-center w-full h-[70vh]">
                 <div className="w-full max-w-[100%] mx-4">
+                    {/*Форма входа*/}
                     <form className="bg-transparent">
                         <div className="flex justify-center mt-8">
                             <input
@@ -19,7 +22,7 @@ export default function Home(){
                                 placeholder="Ваш ID"
                             />
                         </div>
-
+                        {/*Кнопка перехода в ЛК*/}
                         <div className="flex flex-col space-y-4 items-center mt-[18px]">
                             <button
                                 onClick={() => router.push('/profile')}
@@ -30,6 +33,7 @@ export default function Home(){
                             </button>
                         </div>
                     </form>
+                    {/*Блок Нет аккаунта?*/}
                     <div className="flex items-center justify-center mt-[18px]">
                         <p className="montserrat-text text-[16px] text-[#34495E] font-bold">Нет аккаунта?</p>
                         <button onClick={() => router.push("/auth")} className="montserrat-text text-[16px] text-[#3498DB] font-bold underline ml-[4px]">Зарегистрироваться</button>

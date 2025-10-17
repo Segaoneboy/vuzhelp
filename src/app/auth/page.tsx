@@ -2,6 +2,8 @@
 import { useRouter } from "next/navigation"
 import {useTelegram} from "@/providers/TelegramProviders";
 
+// Страница Регистрации
+
 export default function Auth() {
     const router = useRouter();
     const { themeParams } = useTelegram();
@@ -10,6 +12,7 @@ export default function Auth() {
             <h2 className="montserrat-text pt-[30px] bg-none text-[#2C3E50] text-2xl font-bold text-center">Регистрация</h2>
             <div className="flex items-center justify-center w-full h-[70vh]">
                 <div className="w-full max-w-[100%] mx-4">
+                    {/*Форма регистрации*/}
                     <form className="bg-transparent">
                         <div className="flex flex-col items-center space-y-4 mt-8">
                             <input
@@ -27,13 +30,14 @@ export default function Auth() {
 
                         <div className="flex flex-col space-y-4 items-center mt-[18px]">
                             <button
-                                onClick={() => router.push('/profile')}
+                                onClick={() => router.replace("/profile")}
                                 className="montserrat-text w-[95%] h-[50px] text-white bg-[#3498DB] rounded-[20px] text-xs font-bold"
                             >
                                 Зарегистрироваться
                             </button>
                         </div>
                     </form>
+                    {/*Блок Есть Аккаунт?*/}
                     <div className="flex items-center justify-center mt-[18px]">
                         <p className="montserrat-text text-[16px] text-[#34495E] font-bold">Есть аккаунт?</p>
                         <button onClick={() => router.push("/")}
