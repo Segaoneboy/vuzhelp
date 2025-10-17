@@ -27,7 +27,6 @@ export default function Auth() {
 
                         <div className="flex flex-col space-y-4 items-center mt-[18px]">
                             <button
-                                type="submit"
                                 className="montserrat-text w-[95%] h-[50px] text-white bg-[#3498DB] rounded-[20px] text-xs font-bold"
                             >
                                 Зарегистрироваться
