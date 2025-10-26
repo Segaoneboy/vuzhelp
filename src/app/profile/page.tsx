@@ -10,9 +10,7 @@ export default function Profile() {
     if (!user) {
         return <p className="text-center mt-10">Загрузка профиля...</p>;
     }
-
     const avatar = user.photo_url || '/user.png';
-
     return (
         <div className="bg-[#ECF0F1] min-h-screen">
             <h2 className="pt-[30px] text-[#2C3E50] text-2xl font-bold text-center">Личный кабинет</h2>
