@@ -1,7 +1,7 @@
 'use client';
 
 import { createContext, useContext, useEffect, useState } from 'react';
-import { TelegramContextType } from "@/types/telegram";
+import  { TelegramContextType }  from "@/types/telegram";
 
 const TelegramContext = createContext<TelegramContextType | null>(null);
 
@@ -12,26 +12,14 @@ export function TelegramProvider({ children }: { children: React.ReactNode }) {
     const [colorScheme, setColorScheme] = useState<string>('light');
 
     useEffect(() => {
-        const checkTelegram = () => {
-            const webApp = (window as any)?.Telegram?.WebApp;
-            if (!webApp) return false;
+        const webApp = (window as any)?.Telegram?.WebApp;
+        if (!webApp) return;
 
-            webApp.ready();
-            setTg(webApp);
-            setUser(webApp.initDataUnsafe?.user);
-            setThemeParams(webApp.themeParams);
-            setColorScheme(webApp.colorScheme);
-            return true;
-        };
-
-        // Проверяем сразу
-        if (!checkTelegram()) {
-            // если Telegram не готов — повторяем попытку
-            const interval = setInterval(() => {
-                if (checkTelegram()) clearInterval(interval);
-            }, 300);
-            return () => clearInterval(interval);
-        }
+        webApp.ready();
+        setTg(webApp);
+        setUser(webApp.initDataUnsafe?.user);
+        setThemeParams(webApp.themeParams);
+        setColorScheme(webApp.colorScheme);
     }, []);
 
     return (
