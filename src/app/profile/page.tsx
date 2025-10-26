@@ -16,13 +16,18 @@ export default function Profile(){
             <h2 className="pt-[30px] bg-none text-[#2C3E50] text-2xl font-bold text-center">Личный кабинет</h2>
             <div className="flex flex-col items-center space-y-4 mt-8">
                 {/*Фото профиля*/}
-                <Image
-                    src={avatar}
-                    alt="user avatar"
-                    className="rounded-full"
-                    width={82}
-                    height={82}
-                />
+                {user ? (
+                    <Image
+                        src={user.photo_url || '/user.png'}
+                        alt="user avatar"
+                        className="rounded-full"
+                        width={82}
+                        height={82}
+                    />
+                ) : (
+                    <div className="w-[82px] h-[82px] bg-gray-300 rounded-full" />
+                )}
+
                 {/*Фио и балл пользователя*/}
                 <div>
                     <p className="text-[#2C3E50] text-base font-bold">Питер Паркер</p>
