@@ -18,7 +18,7 @@ export default function Profile(){
                 {/*Фото профиля*/}
                 {user ? (
                     <Image
-                        src={user.photo_url || '/user.png'}
+                        src={user.photo_url }
                         alt="user avatar"
                         className="rounded-full"
                         width={82}
