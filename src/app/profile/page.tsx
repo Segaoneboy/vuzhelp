@@ -33,7 +33,7 @@ export default function Profile(){
                     <p className="text-[#2C3E50] text-base font-bold">Питер Паркер</p>
                     <p className="text-[#2C3E50] text-base font-bold">Ваш балл за ЕГЭ: <b className="montserrat-text text-[#3498DB] text-base font-bold">256</b></p>
                     <button className = "text-[#2C3E50] text-base font-bold">Пригласить друга</button>
-                    <p>{user}</p>
+                    <p>{user.first_name} - user</p>
                 </div>
             </div>
         </div>
