@@ -1,14 +1,17 @@
-'use client'
 import "./globals.css";
 import {TelegramProvider} from "@/providers/TelegramProviders";
+import Script from "next/script";
+import { Montserrat } from 'next/font/google'
 
-
+const montserrat = Montserrat({
+  subsets: ['cyrillic'],
+})
 
 export default function RootLayout({children}: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={montserrat.className}>
     <head>
-        <script src="https://telegram.org/js/telegram-web-app.js" />
+        <Script src = "https://telegram.org/js/telegram-web-app.js" strategy="afterInteractive"/>
     </head>
       <body>
         <TelegramProvider>
