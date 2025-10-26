@@ -7,7 +7,6 @@ import {useTelegram} from "@/providers/TelegramProviders";
 
 export default function Home(){
     const router = useRouter();
-    const { themeParams } = useTelegram();
     return (
         <div className="bg-[#ECF0F1] min-h-screen">
             <h2 className="montserrat-text pt-[30px] bg-none text-[#2C3E50] text-2xl font-bold text-center">Вход в личный кабинет</h2>
