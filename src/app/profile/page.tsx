@@ -9,7 +9,7 @@ import Image from 'next/image';
 export default function Profile(){
     const router = useRouter();
     const { user } = useTelegram();
-    const avatar = user?.photo_url ?? '/user.png';
+    const avatar = user?.photo_url || '/user.png';
 
     return (
         <div className="bg-[#ECF0F1] min-h-screen">
