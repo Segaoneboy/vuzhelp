@@ -21,7 +21,6 @@ export function TelegramProvider({ children }: { children: React.ReactNode }) {
             setUser(webApp.initDataUnsafe?.user);
             setThemeParams(webApp.themeParams);
             setColorScheme(webApp.colorScheme);
-            console.log("✅ Telegram WebApp initialized", webApp.initDataUnsafe?.user);
             return true;
         };
 

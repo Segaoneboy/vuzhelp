@@ -14,13 +14,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Script
             src="https://telegram.org/js/telegram-web-app.js"
             strategy="afterInteractive"
-            onLoad={() => console.log("✅ Telegram WebApp script loaded")}
         />
       </head>
       <body>
-      <TelegramProvider>
-        {children}
-      </TelegramProvider>
+        <TelegramProvider>
+          {children}
+        </TelegramProvider>
       </body>
       </html>
   );
