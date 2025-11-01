@@ -1,4 +1,6 @@
 'use client';
+import {router} from "next/client";
+
 export const dynamic = 'force-dynamic';
 
 import { useTelegram } from "@/providers/TelegramProviders";
@@ -23,6 +25,12 @@ export default function Profile() {
                     </p>
                 </div>
             </div>
+            <button
+                onClick={() => router.push('/myvuz')}
+                className="montserrat-text w-[95%] h-[50px] text-white bg-[#3498DB] rounded-[20px] text-xs font-bold"
+            >
+                Мои вузы
+            </button>
         </div>
     );
 }
