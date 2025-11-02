@@ -1,9 +1,9 @@
 import React from 'react';
 import CardVuz from "@/components/CardVuz";
-import { useRouter } from "next/navigation"
+// import { useRouter } from "next/navigation"
 
 const myvuz = () => {
-    const router = useRouter();
+    // const router = useRouter();
     return (
         <div className="bg-[#ECF0F1] min-h-screen">
             <button
@@ -14,7 +14,7 @@ const myvuz = () => {
             </button>
             <h2>Мои вузы</h2>
             <div>
-                <CardVuz number={1} vuzName="МГУ"/>
+                {/*<CardVuz number={1} vuzName="МГУ"/>*/}
             </div>
         </div>
     );
