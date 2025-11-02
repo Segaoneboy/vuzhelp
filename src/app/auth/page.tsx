@@ -25,15 +25,15 @@ export default function Auth() {
                                 placeholder="Ваш ID"
                             />
                         </div>
-                        <div className="flex flex-col space-y-4 items-center mt-[18px]">
-                            <button
-                                onClick={() => router.push('/profile')}
-                                className="montserrat-text w-[95%] h-[50px] text-white bg-[#3498DB] rounded-[20px] text-xs font-bold"
-                            >
-                                Зарегистрироваться
-                            </button>
-                        </div>
                     </form>
+                    <div className="flex flex-col space-y-4 items-center mt-[18px]">
+                        <button
+                            onClick={() => router.push('/profile')}
+                            className="montserrat-text w-[95%] h-[50px] text-white bg-[#3498DB] rounded-[20px] text-xs font-bold"
+                        >
+                            Зарегистрироваться
+                        </button>
+                    </div>
                     <div className="flex items-center justify-center mt-[18px]">
                         <p className="montserrat-text text-[16px] text-[#34495E] font-bold">Есть аккаунт?</p>
                         <button onClick={() => router.push("/")}
