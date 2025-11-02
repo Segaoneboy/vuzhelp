@@ -8,7 +8,7 @@ const myvuz = () => {
         <div className="bg-[#ECF0F1] min-h-screen">
             <button
                 className="pt-[16px] text-[#3498DB] font-bold"
-                onClick={() => router.push("/profile")}
+                // onClick={() => router.push('/profile')}
             >
                 Назад
             </button>
