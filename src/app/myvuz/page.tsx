@@ -12,6 +12,10 @@ const myvuz = () => {
             <h2 className="pt-[30px] text-[#2C3E50] text-2xl font-bold text-center">Мои вузы</h2>
             <div>
                 <CardVuz number={1} vuzName="МГУ"/>
+                <CardVuz number={2} vuzName="ИТМО"/>
+                <CardVuz number={3} vuzName="МФТИ"/>
+                <CardVuz number={4} vuzName="НГУ"/>
+                <CardVuz number={5} vuzName="ПТУ"/>
             </div>
         </div>
     );
