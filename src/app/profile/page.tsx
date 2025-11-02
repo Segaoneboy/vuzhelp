@@ -1,5 +1,6 @@
 'use client';
 import Notifications from "@/components/Notifications";
+import {router} from "next/client";
 
 export const dynamic = 'force-dynamic';
 
@@ -54,6 +55,12 @@ export default function Profile() {
 
                 </div>
             </div>
+            <button
+                onClick={() => router.push('/myvuz')}
+                className="montserrat-text w-[95%] h-[50px] text-white bg-[#3498DB] rounded-[20px] text-xs font-bold"
+            >
+                Мои вузы
+            </button>
         </div>
     );
 }
