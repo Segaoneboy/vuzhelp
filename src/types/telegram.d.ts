@@ -10,4 +10,5 @@ export type TelegramContextType = {
     user: any;
     themeParams: any;
     colorScheme: string;
+    isReady: boolean;
 };
