@@ -1,14 +1,14 @@
 import React from 'react';
 import CardVuz from "@/components/CardVuz";
-// import { useRouter } from "next/navigation"
+import { useRouter } from "next/navigation"
 
 const myvuz = () => {
-    // const router = useRouter();
+    const router = useRouter();
     return (
         <div className="bg-[#ECF0F1] min-h-screen">
             <button
                 className="pt-[16px] text-[#3498DB] font-bold"
-                // onClick={() => router.push('/profile')}
+                onClick={() => router.push('/profile')}
             >
                 Назад
             </button>
