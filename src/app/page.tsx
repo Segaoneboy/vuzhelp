@@ -17,7 +17,7 @@ export default function Home(){
                         <div className="flex justify-center mt-8">
                             <input
                                 type="text"
-                                className="montserrat-text w-[95%] h-[70px] rounded-[20px] bg-[#111856] text-[#989EDA] placeholder:text-[#989EDA] placeholder:text-[20px] placeholder:font-bold pl-8"
+                                className="montserrat-text w-[95%] h-[70px] rounded-[20px] bg-[#111856] text-[#989EDA] placeholder:text-[#989EDA] placeholder:text-[20px] placeholder:font-bold pl-8 font-bold"
                                 placeholder="Введите Ваш ID"
                             />
                         </div>
@@ -27,7 +27,7 @@ export default function Home(){
                         <button
                             onClick={() => router.push('/profile')}
                             type="submit"
-                            className="montserrat-text w-[75%] h-[50px] text-white bg-gradient-to-b from-[#BFD9FF] to-[#4B5CF2] rounded-[20px] text-xs font-bold"
+                            className="montserrat-text w-[75%] h-[50px] text-white bg-gradient-to-b from-[#BFD9FF] to-[#4B5CF2] rounded-[20px] text-[16px] font-bold"
                         >
                             Войти
                         </button>
