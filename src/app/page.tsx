@@ -17,7 +17,7 @@ export default function Home(){
                         <div className="flex justify-center mt-8">
                             <input
                                 type="text"
-                                className="montserrat-text w-[95%] h-[70px] rounded-[20px] bg-[#111856] text-[#989EDA] placeholder:text-[#989EDA] placeholder:text-[60px] placeholder:font-bold pl-8"
+                                className="montserrat-text w-[95%] h-[70px] rounded-[20px] bg-[#111856] text-[#989EDA] placeholder:text-[#989EDA] placeholder:text-[20px] placeholder:font-bold pl-8"
                                 placeholder="Введите Ваш ID"
                             />
                         </div>
