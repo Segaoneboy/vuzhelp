@@ -22,9 +22,30 @@ export default function Profile() {
     }
 
     const avatar = user.photo_url || '/user.png';
+    const settings = '/settings.svg';
+    const ubed = '/uved.svg'
+
 
     return (
-        <div className="bg-[#ECF0F1] min-h-screen">
+        <div className="bg-gradient-to-b from-[#E8EFFA] to-[#AFC5E6] min-h-screen">
+            <div className="">
+                <div className="bg-gradient-to-b from-[#ABC3FB] to-[#5768F3] w-8 h-8 rounded-full">
+                    <Image
+                        src={settings}
+                        alt="settings"
+                        width={25}
+                        height={25}
+                    />
+                </div>
+                <div className="bg-gradient-to-b from-[#ABC3FB] to-[#5768F3] w-8 h-8 rounded-full">
+                    <Image
+                        src={ubed}
+                        alt="uveds"
+                        width={25}
+                        height={25}
+                    />
+                </div>
+            </div>
             <h2 className="pt-[30px] bg-none text-[#2C3E50] text-2xl font-bold text-center">
                 Личный кабинет
             </h2>
