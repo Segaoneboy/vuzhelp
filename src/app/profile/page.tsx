@@ -33,16 +33,14 @@ export default function Profile() {
                     <Image
                         src={settings}
                         alt="settings"
-                        width={25}
-                        height={25}
+                        width={15}
                     />
                 </div>
                 <div className="bg-gradient-to-b from-[#ABC3FB] to-[#5768F3] w-8 h-8 rounded-full">
                     <Image
                         src={ubed}
                         alt="uveds"
-                        width={25}
-                        height={25}
+                        width={15}
                     />
                 </div>
             </div>
