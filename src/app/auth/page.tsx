@@ -27,7 +27,7 @@ export default function Auth() {
                             />
                         </div>
                     </form>
-                    <div className="flex flex-col space-y-4 items-center mt-[18px]">
+                    <div className="pt-3">
                         <MainButton text="Зарегистрироваться" url="profile"/>
                     </div>
                     <div className="flex items-center justify-center mt-[18px]">
