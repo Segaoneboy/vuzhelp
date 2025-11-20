@@ -50,7 +50,7 @@ export default function Profile() {
                 Личный кабинет
             </h2>
 
-            <div className="flex items-center space-x-4 mt-8 pl-2">
+            <div className="flex items-center space-x-4 mt-8 pl-4">
                 {/* Фото профиля */}
                 <Image
                     src={avatar}
@@ -77,9 +77,9 @@ export default function Profile() {
             </div>
             <button
                 onClick={() => router.push('/myvuz')}
-                className="montserrat-text w-[95%] h-[50px] text-white bg-[#3498DB] rounded-[20px] text-xs font-bold"
+                className="montserrat-text w-[90%] h-[70px] text-white bg-gradient-to-b from-[#BFD9FF] to-[#4B5CF2] rounded-[40px] text-[20px] font-bold"
             >
-                Мои вузы
+                Мои ВУЗы
             </button>
         </div>
     );
