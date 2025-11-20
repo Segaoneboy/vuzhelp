@@ -46,7 +46,7 @@ export default function Profile() {
                     />
                 </div>
             </div>
-            <h2 className="pt-[30px] bg-none text-[#2C3E50] text-2xl font-bold text-center">
+            <h2 className="pt-[50px] bg-none text-[#2C3E50] text-2xl font-bold text-center">
                 Личный кабинет
             </h2>
 
