@@ -8,6 +8,8 @@ import { useRouter } from "next/navigation";
 import { useTelegram } from "@/providers/TelegramProviders";
 import Image from 'next/image';
 import MainButton from "@/components/ui/MainButton";
+import React from "react";
+import NumberedList from "@/components/NumberedList";
 
 export default function Profile() {
     const router = useRouter();
@@ -76,7 +78,8 @@ export default function Profile() {
                     </p>
                 </div>
             </div>
-
+            <p className="text-[#000000] text-base">Приглашенные друзья:</p>
+            <NumberedList items={['sqilta', 'swrweert', '4ffd23', 'item4']}/>
             <div className="flex justify-center">
                 <button
                     onClick={() => router.push('/')}
