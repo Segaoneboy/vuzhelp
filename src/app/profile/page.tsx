@@ -86,9 +86,7 @@ export default function Profile() {
                 </button>
             </div>
 
-            <div className="flex justify-center">
-                <MainButton text="Мои ВУЗы"/>
-            </div>
+            <MainButton text="Мои ВУЗы"/>
         </div>
     );
 }
