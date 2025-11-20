@@ -7,6 +7,7 @@ export const dynamic = 'force-dynamic';
 import { useRouter } from "next/navigation";
 import { useTelegram } from "@/providers/TelegramProviders";
 import Image from 'next/image';
+import MainButton from "@/components/ui/MainButton";
 
 export default function Profile() {
     const router = useRouter();
@@ -85,14 +86,7 @@ export default function Profile() {
                 </button>
             </div>
 
-            <div className="flex justify-center pt-3">
-                <button
-                    onClick={() => router.push('/myvuz')}
-                    className="montserrat-text w-[90%] h-[60px] text-white bg-gradient-to-b from-[#BFD9FF] to-[#4B5CF2] rounded-[25px] text-[20px] font-bold"
-                >
-                    Мои ВУЗы
-                </button>
-            </div>
+            <MainButton text="Мои ВУЗы"/>
         </div>
     );
 }
