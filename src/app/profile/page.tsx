@@ -46,7 +46,7 @@ export default function Profile() {
                     />
                 </div>
             </div>
-            <h2 className="pt-[30px] bg-none text-[#2C3E50] text-2xl font-bold text-center">
+            <h2 className="montserrat-text pt-[20px] bg-none text-[#000000] text-[24px] font-bold text-center">
                 Личный кабинет
             </h2>
 
@@ -62,18 +62,17 @@ export default function Profile() {
 
                 {/* ФИО и данные */}
                 <div className="text-center">
-                    <p className="text-[#2C3E50] text-base font-bold">
+                    <p className="text-[#000000] text-base font-bold">
                         {user.first_name} {user.last_name}
                     </p>
-                    <p className="text-[#2C3E50] text-base font-bold">
+                    <p className="text-[#000000] text-base font-bold">
                         Ваш балл за ЕГЭ:{" "}
-                        <b className="text-[#3498DB] font-bold">256</b>
+                        <b className="text-[#1647D9] font-bold">256</b>
                     </p>
-                    <button className="text-[#2C3E50] text-base font-bold mt-2">
-                        Пригласить друга
-                    </button>
-                    <Notifications/>
-
+                    <p>
+                        Статус подписки: {" "}
+                        <b className="text-[#1647D9] font-bold">Активна</b>
+                    </p>
                 </div>
             </div>
             <button
