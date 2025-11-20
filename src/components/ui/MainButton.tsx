@@ -12,7 +12,7 @@ const MainButton = (props: buttonText) => {
     return (
         <div className="flex justify-center">
             <button
-                onClick={() => router.push('/'+{url})}
+                onClick={() => router.push(`/${url}`)}
                 className="montserrat-text w-[90%] h-[50px] text-white bg-gradient-to-b from-[#BFD9FF] to-[#4B5CF2] rounded-[25px] text-[18px] font-bold"
             >
                 {text}
