@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation"
 import {useTelegram} from "@/providers/TelegramProviders";
+import MainButton from "@/components/ui/MainButton";
 
 //Страница Входа
 
@@ -23,14 +24,8 @@ export default function Home(){
                         </div>
                     </form>
                     {/*Кнопка перехода в ЛК*/}
-                    <div className="flex flex-col space-y-4 items-center mt-[18px]">
-                        <button
-                            onClick={() => router.push('/profile')}
-                            type="submit"
-                            className="montserrat-text w-[75%] h-[50px] text-white bg-gradient-to-b from-[#BFD9FF] to-[#4B5CF2] rounded-[20px] text-[16px] font-bold"
-                        >
-                            Войти
-                        </button>
+                    <div className="pt-3">
+                        <MainButton text="Войти" url="profile"/>
                     </div>
                     {/*Блок Нет аккаунта?*/}
                     <div className="flex items-center justify-center mt-[18px]">
