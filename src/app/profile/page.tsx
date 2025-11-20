@@ -75,10 +75,20 @@ export default function Profile() {
                     </p>
                 </div>
             </div>
+
             <div className="flex justify-center">
                 <button
+                    onClick={() => router.push('/')}
+                    className="montserrat-text w-[70%] h-[40px] text-white bg-gradient-to-b from-[#6D98DA] to-[#0C1DB5] rounded-[15px] text-[16px] font-bold"
+                >
+                    Мои ВУЗы
+                </button>
+            </div>
+
+            <div className="flex justify-center pt-4">
+                <button
                     onClick={() => router.push('/myvuz')}
-                    className="montserrat-text w-[90%] h-[60px] text-white bg-gradient-to-b from-[#BFD9FF] to-[#4B5CF2] rounded-[30px] text-[20px] font-bold"
+                    className="montserrat-text w-[90%] h-[60px] text-white bg-gradient-to-b from-[#BFD9FF] to-[#4B5CF2] rounded-[25px] text-[20px] font-bold"
                 >
                     Мои ВУЗы
                 </button>
