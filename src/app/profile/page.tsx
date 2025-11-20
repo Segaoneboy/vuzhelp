@@ -28,7 +28,7 @@ export default function Profile() {
 
     return (
         <div className="bg-gradient-to-b from-[#E8EFFA] to-[#AFC5E6] min-h-screen">
-            <div className="inline-flex gap-2 justify-end mr-4 mt-4 ml-auto">
+            <div className="flex gap-2 justify-end mt-4 mr-4">
                 <div
                     className="bg-gradient-to-b from-[#ABC3FB] to-[#5768F3] w-8 h-8 rounded-full flex items-center justify-center">
                     <Image
@@ -46,7 +46,7 @@ export default function Profile() {
                     />
                 </div>
             </div>
-            <h2 className="pt-[50px] bg-none text-[#2C3E50] text-2xl font-bold text-center">
+            <h2 className="pt-[30px] bg-none text-[#2C3E50] text-2xl font-bold text-center">
                 Личный кабинет
             </h2>
 
