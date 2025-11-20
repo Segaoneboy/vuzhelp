@@ -78,7 +78,7 @@ export default function Profile() {
                     </p>
                 </div>
             </div>
-            <p className="text-[#000000] text-base ml-4 mt-6">Приглашенные друзья:</p>
+            <p className="text-[#000000] text-base ml-4 mt-6 font-bold">Приглашенные друзья:</p>
             <NumberedList items={['sqilta', 'swrweert', '4ffd23', 'item4', '4ffd23', 'item4', '4ffd23', 'item4', '4ffd23', 'item4']}/>
             <div className="flex justify-center mt-6">
                 <button
