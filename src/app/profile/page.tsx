@@ -79,7 +79,7 @@ export default function Profile() {
                 </div>
             </div>
             <p className="text-[#000000] text-base">Приглашенные друзья:</p>
-            <NumberedList items={['sqilta', 'swrweert', '4ffd23', 'item4']}/>
+            <NumberedList items={['sqilta', 'swrweert', '4ffd23', 'item4', '4ffd23', 'item4', '4ffd23', 'item4', '4ffd23', 'item4']}/>
             <div className="flex justify-center">
                 <button
                     onClick={() => router.push('/')}
