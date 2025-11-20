@@ -85,8 +85,9 @@ export default function Profile() {
                     Пригласить друга
                 </button>
             </div>
-
-            <MainButton text="Мои ВУЗы" url="myvuz"/>
+            <div className="pt-3">
+                <MainButton text="Мои ВУЗы" url="myvuz"/>
+            </div>
         </div>
     );
 }
