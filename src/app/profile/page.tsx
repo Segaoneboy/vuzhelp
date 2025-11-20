@@ -78,9 +78,9 @@ export default function Profile() {
                     </p>
                 </div>
             </div>
-            <p className="text-[#000000] text-base">Приглашенные друзья:</p>
+            <p className="text-[#000000] text-base ml-4 mt-6">Приглашенные друзья:</p>
             <NumberedList items={['sqilta', 'swrweert', '4ffd23', 'item4', '4ffd23', 'item4', '4ffd23', 'item4', '4ffd23', 'item4']}/>
-            <div className="flex justify-center">
+            <div className="flex justify-center mt-6">
                 <button
                     onClick={() => router.push('/')}
                     className="montserrat-text w-[70%] h-[45px] text-white bg-gradient-to-b from-[#6D98DA] to-[#0C1DB5] rounded-[20px] text-[16px] font-bold"

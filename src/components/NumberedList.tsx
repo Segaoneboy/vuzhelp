@@ -14,7 +14,7 @@ const NumberedList: React.FC<NumberedListProps> = ({
     const showScroll = items.length > scrollThreshold;
 
     return (
-        <div className={`ml-4 ${maxHeight} ${showScroll ? 'overflow-y-auto pr-2' : 'overflow-hidden'}`}>
+        <div className={`ml-4 mt-5 ${maxHeight} ${showScroll ? 'overflow-y-auto pr-2' : 'overflow-hidden'}`}>
             <div className="space-y-2">
                 {items.map((item, index) => (
                     <div key={index} className="flex items-start">
