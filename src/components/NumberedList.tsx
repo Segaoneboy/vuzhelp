@@ -18,7 +18,7 @@ const NumberedList: React.FC<NumberedListProps> = ({
             <div className="space-y-2">
                 {items.map((item, index) => (
                     <div key={index} className="flex items-start">
-            <span className="text-black text-base font-bold mr-2 min-w-6">
+            <span className="text-black text-base font-bold mr-0.5 min-w-6">
               {index + 1}.
             </span>
                         <span className="text-black font-bold text-base">{item}</span>
