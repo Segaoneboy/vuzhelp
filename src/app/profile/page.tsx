@@ -86,7 +86,7 @@ export default function Profile() {
                 </button>
             </div>
 
-            <MainButton text="Мои ВУЗы"/>
+            <MainButton text="Мои ВУЗы" url="myvuz"/>
         </div>
     );
 }
