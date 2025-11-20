@@ -50,7 +50,7 @@ export default function Profile() {
                 Личный кабинет
             </h2>
 
-            <div className="flex flex-col items-center space-y-4 mt-8">
+            <div className="flex items-center space-x-4 mt-8">
                 {/* Фото профиля */}
                 <Image
                     src={avatar}
@@ -61,7 +61,7 @@ export default function Profile() {
                 />
 
                 {/* ФИО и данные */}
-                <div className="text-center">
+                <div className="text-left">
                     <p className="text-[#000000] text-base font-bold">
                         {user.first_name} {user.last_name}
                     </p>
@@ -69,7 +69,7 @@ export default function Profile() {
                         Ваш балл за ЕГЭ:{" "}
                         <b className="text-[#1647D9] font-bold">256</b>
                     </p>
-                    <p>
+                    <p className="text-[#000000] text-base font-bold">
                         Статус подписки: {" "}
                         <b className="text-[#1647D9] font-bold">Активна</b>
                     </p>
