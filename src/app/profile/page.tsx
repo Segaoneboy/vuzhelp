@@ -50,7 +50,7 @@ export default function Profile() {
                 Личный кабинет
             </h2>
 
-            <div className="flex items-center space-x-4 mt-8">
+            <div className="flex items-center space-x-4 mt-8 pl-2">
                 {/* Фото профиля */}
                 <Image
                     src={avatar}
