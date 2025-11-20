@@ -28,7 +28,7 @@ export default function Profile() {
 
     return (
         <div className="bg-gradient-to-b from-[#E8EFFA] to-[#AFC5E6] min-h-screen">
-            <div className="flex gap-2 justify-end mr-4 fixed top-4 right-4">
+            <div className="flex gap-2 justify-end mr-4 fixed top-4 right-2">
                 <div
                     className="bg-gradient-to-b from-[#ABC3FB] to-[#5768F3] w-8 h-8 rounded-full flex items-center justify-center">
                     <Image
