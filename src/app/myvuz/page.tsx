@@ -1,5 +1,6 @@
 import React from 'react';
 import CardVuz from "@/components/CardVuz";
+import CardNapr from "@/components/CardNapr";
 
 const myvuz = () => {
     return (
@@ -12,6 +13,7 @@ const myvuz = () => {
             <h2 className="pt-[30px] text-[#2C3E50] text-2xl font-bold text-center">Мои вузы</h2>
             <div>
                 <CardVuz number="98%" vuzName="МГУ"/>
+                <CardNapr chanse="99%" name="ИВТ"/>
                 <CardVuz number="88%" vuzName="ИТМО"/>
                 <CardVuz number="28%" vuzName="МФТИ"/>
                 <CardVuz number="62%" vuzName="НГУ"/>
