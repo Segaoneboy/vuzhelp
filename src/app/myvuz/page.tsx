@@ -3,6 +3,14 @@ import CardVuz from "@/components/CardVuz";
 import CardNapr from "@/components/CardNapr";
 
 const myvuz = () => {
+
+    const mockData = [
+        { id: 1, name: "ИВТ", chanse: "99%" },
+        { id: 2, name: "ИБ", chanse: "85%" },
+        { id: 3, name: "ПМИ", chanse: "92%" },
+        { id: 4, name: "ФИИТ", chanse: "78%" },
+    ];
+
     return (
         <div className="bg-[#ECF0F1] min-h-screen">
             <button
@@ -13,7 +21,7 @@ const myvuz = () => {
             <h2 className="pt-[30px] text-[#2C3E50] text-2xl font-bold text-center">Мои вузы</h2>
             <div>
                 <CardVuz number="98%" vuzName="МГУ"/>
-                <CardNapr chanse="99%" name="ИВТ"/>
+                <CardList naprData={mockData} />
                 <CardVuz number="88%" vuzName="ИТМО"/>
                 <CardVuz number="28%" vuzName="МФТИ"/>
                 <CardVuz number="62%" vuzName="НГУ"/>
