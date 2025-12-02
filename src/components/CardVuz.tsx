@@ -19,7 +19,7 @@ const CardVuz = (props: CardVuzProps) => {
                 height={29}
             />
             <p className="font-bold text-[16px] text-white absolute left-1/2 transform -translate-x-1/2">{vuzName}</p>
-            <p className="font-bold text-[12px] text-white ml-[20px]">{number}</p>
+            <p className="font-bold text-[18px] text-white ml-[20px]">{number}</p>
         </div>
     )
 }
