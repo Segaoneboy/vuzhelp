@@ -30,7 +30,7 @@ const myvuz = () => {
             </button>
             <h2 className="pt-[30px] text-[#2C3E50] text-2xl font-bold text-center">Мои вузы</h2>
             <div>
-                <CardVuz number="98%" vuzName="МГУ" onClick={handleVuzClick}/>
+                <CardVuz number="98%" vuzName="МГУ" onClick={handleVuzClick} isActive={isListVisible}/>
                 {isListVisible && <CardList naprData={mockData} />}
                 {/*<CardVuz number="88%" vuzName="ИТМО"/>*/}
                 {/*<CardVuz number="28%" vuzName="МФТИ"/>*/}
