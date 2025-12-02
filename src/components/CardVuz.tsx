@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 interface CardVuzProps {
-    number: number;
+    number: string;
     vuzName: string;
 }
 
@@ -10,9 +10,7 @@ const CardVuz = (props: CardVuzProps) => {
     const arrowDown = '/arrow.svg'
     const {number, vuzName} = props;
     return (
-        <div className="w-[90%] h-[58px] bg-[#34495E] rounded-2xl mt-5 flex items-center justify-between px-5 mx-auto">
-            <p className="font-bold text-[12px] text-white ml-[20px]">{number}</p>
-            <p className="font-bold text-[16px] text-white absolute left-1/2 transform -translate-x-1/2">{vuzName}</p>
+        <div className="w-[90%] h-[58px] bg-[#111856] rounded-2xl mt-3 flex items-center justify-between px-5 mx-auto">
             <Image
                 src={arrowDown}
                 alt="user avatar"
@@ -20,6 +18,8 @@ const CardVuz = (props: CardVuzProps) => {
                 width={29}
                 height={29}
             />
+            <p className="font-bold text-[16px] text-white absolute left-1/2 transform -translate-x-1/2">{vuzName}</p>
+            <p className="font-bold text-[12px] text-white ml-[20px]">{number}</p>
         </div>
     )
 }

@@ -11,11 +11,11 @@ const myvuz = () => {
             </button>
             <h2 className="pt-[30px] text-[#2C3E50] text-2xl font-bold text-center">Мои вузы</h2>
             <div>
-                <CardVuz number={1} vuzName="МГУ"/>
-                <CardVuz number={2} vuzName="ИТМО"/>
-                <CardVuz number={3} vuzName="МФТИ"/>
-                <CardVuz number={4} vuzName="НГУ"/>
-                <CardVuz number={5} vuzName="ПТУ"/>
+                <CardVuz number="98%" vuzName="МГУ"/>
+                <CardVuz number="88%" vuzName="ИТМО"/>
+                <CardVuz number="28%" vuzName="МФТИ"/>
+                <CardVuz number="62%" vuzName="НГУ"/>
+                <CardVuz number="100%" vuzName="ПТУ"/>
             </div>
         </div>
     );
