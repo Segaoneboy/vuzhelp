@@ -1,5 +1,6 @@
 import React from 'react';
 import CardVuz from "@/components/CardVuz";
+import CardList from "@/components/CardList";
 import CardNapr from "@/components/CardNapr";
 
 const myvuz = () => {
